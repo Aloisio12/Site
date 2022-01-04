@@ -1,0 +1,81 @@
+p{
+	color:white;
+	font-size: 20px;
+	font-family: asdf, arial, "Times new roman";
+	text-shadow:1px 1px 1px #111111;
+}
+
+body{
+	background-color:#000000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial;
+}
+
+header{
+	background-color:greenyellow;
+	height: 99px;
+	padding:5px;
+}
+
+
+footer{
+	clear: both;
+	background-color:greenyellow;
+	height: 70px;
+	text-align: center;
+	padding: 15px;
+	font-size:12px;
+	text-shadow:1px 1px 1px #111111;
+}
+
+h1{
+	color:greenyellow;
+	text-shadow:1px 1px 1px #111111;
+	text-align: center;
+	margin:30px 0 30px 0;
+}
+
+/* IDS */
+#principal{
+	background-image: url('cidade.jpg');
+	clear:both;
+	background-size:120%;
+	min-height: 500px;
+	padding:0px 100px 0px 100px;
+}
+
+#logo{
+	float:left;
+}
+
+#menu{
+	margin-top:35px;
+	float:right;
+}
+
+#menu a{
+	padding:52px 20px;
+	text-decoration: none;
+	color:#111;
+	text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+	background-color:black;
+	color:greenyellow;
+}
+
+/* class */
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeito{
+	background-color:rgba(0, 0, 0, 0.7);
+	padding: 5px 20px 25px 20px;
+}
